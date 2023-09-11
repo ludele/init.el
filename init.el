@@ -23,7 +23,6 @@
   (visual-line-mode 1)
 )
 
-()
 (setq indent-tabs-mode t)      
 
 (require 'olivetti)
