@@ -54,9 +54,8 @@
 
 (global-unset-key (kbd "C-SPC"))
 
-(require 'fcitx)
-(fcitx-aggressive-setup)
-
+;(require 'fcitx)
+;(fcitx-aggressive-setup)
 
 (ivy-mode)
 (display-line-numbers-mode)
