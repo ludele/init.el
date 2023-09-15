@@ -23,6 +23,18 @@
   (visual-line-mode 1)
 )
 
+(use-package lsp-mode
+  :commands (lsp lsp-deferred)
+  :init
+  (setq lsp-keymap-prefix "C-l"))
+
+(use-package typescript-mode
+  :mode "\\.ts\\'"
+  :mode "\\.tsx\\'"
+  :hook (typescript-mode . lsp-deferred)
+  :config
+ (setq typescript-indent-level 1))
+  
 (setq indent-tabs-mode t)      
 
 (require 'olivetti)
@@ -69,11 +81,11 @@
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes '(cherry-blossom))
  '(custom-safe-themes
-   '("2aa073a18b2ba860d24d2cd857bcce34d7107b6967099be646d9c95f53ef3643" "9ee253fcdb48535bf16df2700582b0a11fe99390b018755b941140f2fcdff219" "9ee253fcdb48335bf16df2700582b0a11fe99390b018755b941140f2fcdff219" default))
+   '("f25f174e4e3dbccfcb468b8123454b3c61ba94a7ae0a870905141b050ad94b8f" "2aa073a18b2ba860d24d2cd857bcce34d7107b6967099be646d9c95f53ef3643" "9ee253fcdb48535bf16df2700582b0a11fe99390b018755b941140f2fcdff219" "9ee253fcdb48335bf16df2700582b0a11fe99390b018755b941140f2fcdff219" default))
  '(display-time-mode t)
  '(ispell-dictionary nil)
  '(package-selected-packages
-   '(magit fcitx omnisharp cherry-blossom-theme theme-magic multiple-cursors exwm gnu-indent indent-tools eshell-vterm evil-better-visual-line vterm lispy org-bullets olivetti ivy doom-modeline evil use-package))
+   '(typescript-mode lsp-mode dracula-theme treemacs magit fcitx omnisharp cherry-blossom-theme theme-magic multiple-cursors exwm gnu-indent indent-tools eshell-vterm evil-better-visual-line vterm lispy org-bullets olivetti ivy doom-modeline evil use-package))
  '(treemacs-indent-guide-mode t)
  '(warning-suppress-types '((auto-save) (emacs))))
 (custom-set-faces
