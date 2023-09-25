@@ -80,11 +80,11 @@
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes '(cherry-blossom))
  '(custom-safe-themes
-   '("f25f174e4e3dbccfcb468b8123454b3c61ba94a7ae0a870905141b050ad94b8f" "2aa073a18b2ba860d24d2cd857bcce34d7107b6967099be646d9c95f53ef3643" "9ee253fcdb48535bf16df2700582b0a11fe99390b018755b941140f2fcdff219" "9ee253fcdb48335bf16df2700582b0a11fe99390b018755b941140f2fcdff219" default))
+   '("6cfe5b2f818c7b52723f3e121d1157cf9d95ed8923dbc1b47f392da80ef7495d" "f25f174e4e3dbccfcb468b8123454b3c61ba94a7ae0a870905141b050ad94b8f" "2aa073a18b2ba860d24d2cd857bcce34d7107b6967099be646d9c95f53ef3643" "9ee253fcdb48535bf16df2700582b0a11fe99390b018755b941140f2fcdff219" "9ee253fcdb48335bf16df2700582b0a11fe99390b018755b941140f2fcdff219" default))
  '(display-time-mode t)
  '(ispell-dictionary nil)
  '(package-selected-packages
-   '(typescript-mode lsp-mode dracula-theme treemacs magit fcitx omnisharp cherry-blossom-theme theme-magic multiple-cursors exwm gnu-indent indent-tools eshell-vterm evil-better-visual-line vterm lispy org-bullets olivetti ivy doom-modeline evil use-package))
+   '(twilight-theme cython-mode all-the-icons bongo typescript-mode lsp-mode dracula-theme treemacs magit fcitx omnisharp cherry-blossom-theme theme-magic multiple-cursors exwm gnu-indent indent-tools eshell-vterm evil-better-visual-line vterm lispy org-bullets olivetti ivy doom-modeline evil use-package))
  '(treemacs-indent-guide-mode t)
  '(warning-suppress-types '((auto-save) (emacs))))
 (custom-set-faces
