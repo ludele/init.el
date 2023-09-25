@@ -57,8 +57,8 @@
 (global-set-key (kbd "C-x e") 'eval-buffer)
 
 (put 'upcase-region 'disabled nil)
-(set-frame-parameter (selected-frame) 'alpha '(83 .83))
-(add-to-list 'default-frame-alist '(alpha . (83 .83)))
+;(set-frame-parameter (selected-frame) 'alpha '(83 .83))
+;(add-to-list 'default-frame-alist '(alpha . (83 .83)))
 
 (menu-bar-mode -1)
 (tool-bar-mode -1)
@@ -80,11 +80,11 @@
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes '(cherry-blossom))
  '(custom-safe-themes
-   '("6cfe5b2f818c7b52723f3e121d1157cf9d95ed8923dbc1b47f392da80ef7495d" "f25f174e4e3dbccfcb468b8123454b3c61ba94a7ae0a870905141b050ad94b8f" "2aa073a18b2ba860d24d2cd857bcce34d7107b6967099be646d9c95f53ef3643" "9ee253fcdb48535bf16df2700582b0a11fe99390b018755b941140f2fcdff219" "9ee253fcdb48335bf16df2700582b0a11fe99390b018755b941140f2fcdff219" default))
+   '("f6a0635dce942dc3101fb3e29198af99ee9341caac22e9c0f739b77ac50f315b" "6cfe5b2f818c7b52723f3e121d1157cf9d95ed8923dbc1b47f392da80ef7495d" "f25f174e4e3dbccfcb468b8123454b3c61ba94a7ae0a870905141b050ad94b8f" "2aa073a18b2ba860d24d2cd857bcce34d7107b6967099be646d9c95f53ef3643" "9ee253fcdb48535bf16df2700582b0a11fe99390b018755b941140f2fcdff219" "9ee253fcdb48335bf16df2700582b0a11fe99390b018755b941140f2fcdff219" default))
  '(display-time-mode t)
  '(ispell-dictionary nil)
  '(package-selected-packages
-   '(twilight-theme cython-mode all-the-icons bongo typescript-mode lsp-mode dracula-theme treemacs magit fcitx omnisharp cherry-blossom-theme theme-magic multiple-cursors exwm gnu-indent indent-tools eshell-vterm evil-better-visual-line vterm lispy org-bullets olivetti ivy doom-modeline evil use-package))
+   '(timu-spacegrey-theme twilight-theme cython-mode all-the-icons bongo typescript-mode lsp-mode dracula-theme treemacs magit fcitx omnisharp cherry-blossom-theme theme-magic multiple-cursors exwm gnu-indent indent-tools eshell-vterm evil-better-visual-line vterm lispy org-bullets olivetti ivy doom-modeline evil use-package))
  '(treemacs-indent-guide-mode t)
  '(warning-suppress-types '((auto-save) (emacs))))
 (custom-set-faces
